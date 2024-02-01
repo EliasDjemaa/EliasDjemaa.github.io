@@ -74,7 +74,7 @@ function render() {
     context.fillRect(gasgateX, gasgateY + 6, context.measureText(gasgateText).width, underlineHeight);
 
     // Render "Gasgate" with green underline
-    const ForeignCirclesText = "ForeignCircles";
+    const ForeignCirclesText = "---";
     const ForeignCirclesX = 20;
     const ForeignCirclesY = 350;
     const fcFillStyle = "white";
