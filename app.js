@@ -34,7 +34,7 @@ images[0].onload = render;
 
 // Add click event listener to the "Contact" text
 canvas.addEventListener("click", function(event) {
-    const contactTextPosition = { x: 20, y: 970, width: context.measureText("Contact").width, height: 24 };
+    const contactTextPosition = { x: 20, y: 940, width: context.measureText("Contact").width, height: 24 };
     const boundingBoxPadding = 100; 
 
     // Adjust the bounding box size
